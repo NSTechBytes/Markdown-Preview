@@ -1,6 +1,6 @@
-# 📝 MD Preview - A Powerful Markdown Previewer for VS Code
+# 📝 Markdown Preview - A Powerful Markdown Previewer for VS Code
 
-**MD Preview** is a **lightweight yet powerful** extension for **Visual Studio Code** that provides a **live preview** of Markdown files. It supports **images (local & remote), themes, tables, quotes, and more**.
+**Markdown Preview** is a **lightweight yet powerful** extension for **Visual Studio Code** that provides a **live preview** of Markdown files. It supports **images (local & remote), themes, tables, quotes, and more**.
 
 ---
 
@@ -19,7 +19,7 @@
 ### Install via VS Code:
 1. Open **VS Code**
 2. Go to **Extensions** (`Ctrl+Shift+X`)
-3. Search for **"MD Preview"**
+3. Search for **"Markdown Preview"**
 4. Click **Install**
 
 ### Install via Command:
@@ -35,8 +35,8 @@ ext install NSTechBytes.md-preview
 
 1. Open a **Markdown (`.md`) file**
 2. Open the Command Palette (`Ctrl+Shift+P`)
-3. Search for **"MD Preview: Open Markdown Preview"** and select it.
-4. **OR** Right-click the file and choose **"Open MD Preview"** from the context menu.
+3. Search for **"Markdown Preview: Open Markdown Preview"** and select it.
+4. **OR** Right-click the file and choose **"Open Markdown Preview"** from the context menu.
 
 ---
 
@@ -54,11 +54,11 @@ ext install NSTechBytes.md-preview
 
 ## 🛠️ Development & Contribution
 
-Want to improve **MD Preview**? Feel free to **fork** this repository and submit a **pull request**.
+Want to improve **Markdown Preview**? Feel free to **fork** this repository and submit a **pull request**.
 
 ### Clone the Repository:
 ```sh
-git clone https://github.com/NSTechBytes/md-preview.git
+git clone https://github.com/NSTechBytes/Markdown-Preview.git
 ```
 
 ### Install Dependencies:
@@ -81,6 +81,6 @@ This project is licensed under the **MIT License**.
 
 ## ⭐ Support
 
-If you like **MD Preview**, please **star ⭐ this repository**! 😊
-For issues & feature requests, open an **issue** on [GitHub](https://github.com/NSTechBytes/md-preview/issues).
+If you like **Markdown Preview**, please **star ⭐ this repository**! 😊
+For issues & feature requests, open an **issue** on [GitHub](https://github.com/NSTechBytes/Markdown-Preview/issues).
 

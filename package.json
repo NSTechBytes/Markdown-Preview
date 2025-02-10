@@ -1,10 +1,10 @@
 {
-  "name": "md-preview",
-  "displayName": "MD Preview",
+  "name": "markdown-preview",
+  "displayName": "Markdown Preview",
   "description": "A Markdown previewer for VS Code with live updates, themes, and image support.",
   "version": "0.0.1",
   "publisher": "NSTechBytes",
-  "icon": "images/MD Preview.png",
+  "icon": "images/Markdown Preview.png",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -36,11 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NSTechBytes/md-preview"
+    "url": "https://github.com/NSTechBytes/Markdown-Preview"
   },
-  "homepage": "https://github.com/NSTechBytes/md-preview",
+  "homepage": "https://github.com/NSTechBytes/Markdown-Preview",
   "bugs": {
-    "url": "https://github.com/NSTechBytes/md-preview/issues"
+    "url": "https://github.com/NSTechBytes/Markdown-Preview/issues"
   },
   "scripts": {
     "lint": "eslint .",
