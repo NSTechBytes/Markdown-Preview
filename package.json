@@ -1,15 +1,14 @@
 {
   "name": "markdown-showcase",
   "displayName": "Markdown Showcase",
-  "description": "A Markdown previewer for VS Code with live updates, themes, and image support.",
+  "description": "A Markdown previewer for VS Code with  updates, themes, and image support.",
   "version": "0.0.1",
   "publisher": "NSTechBytes",
-  "icon": "images/Markdown Showcase.png",
+  "icon": "images/Markdown-Showcase.png",
   "engines": {
     "vscode": "^1.97.0"
   },
   "categories": [
-    "Markdown",
     "Other"
   ],
   "activationEvents": [
