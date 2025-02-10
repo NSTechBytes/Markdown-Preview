@@ -1,0 +1,133 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+
+  #toolbar {
+    background: var(--toolbar-bg);
+    color: var(--toolbar-text);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  select {
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    background: var(--select-bg);
+    color: var(--text-color);
+  }
+
+  #content {
+    padding: 20px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  h1, h2, h3 {
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 5px;
+  }
+
+  pre {
+    background: var(--code-bg);
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+
+  code {
+    font-family: "Courier New", monospace;
+    color: var(--code-text);
+  }
+
+  /* Inline Code */
+  p code, li code, td code {
+    background: var(--inline-code-bg);
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 90%;
+  }
+
+  /* Block Code */
+  pre code {
+    display: block;
+    padding: 10px;
+    background: var(--block-code-bg);
+    border-radius: 6px;
+    font-size: 90%;
+    overflow-x: auto;
+  }
+
+  /* Blockquote Styling */
+  blockquote {
+    border-left: 4px solid var(--border-color);
+    padding: 10px 15px;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.05);
+    font-style: italic;
+  }
+
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th, td {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+  }
+
+  th {
+    background: var(--toolbar-bg);
+    font-weight: bold;
+    text-align: left;
+  }
+
+  /* GitHub Light Mode */
+  .light-theme {
+    --toolbar-bg: #f6f8fa;
+    --toolbar-text: #24292f;
+    --select-bg: #fff;
+    --text-color: #24292f;
+    --border-color: #d1d5da;
+    --inline-code-bg: #eaeef2;
+    --block-code-bg: #f6f8fa;
+    --code-text: #d73a49;
+    background: #ffffff;
+    color: #24292f;
+  }
+
+  /* GitHub Dark Mode */
+  .dark-theme {
+    --toolbar-bg: #161b22;
+    --toolbar-text: #c9d1d9;
+    --select-bg: #0d1117;
+    --text-color: #c9d1d9;
+    --border-color: #30363d;
+    --inline-code-bg: #282e34;
+    --block-code-bg: #161b22;
+    --code-text: #ff7b72;
+    background: #0d1117;
+    color: #c9d1d9;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin: 10px 0;
+  }
+
+ 

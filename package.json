@@ -1,0 +1,59 @@
+{
+  "name": "md-preview",
+  "displayName": "MD Preview",
+  "description": "A Markdown previewer for VS Code with live updates, themes, and image support.",
+  "version": "0.0.1",
+  "publisher": "NSTechBytes",
+  "icon": "images/MD Preview.png",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Markdown",
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:mdPreview.openPreview",
+    "onLanguage:markdown"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mdPreview.openPreview",
+        "title": "Open Markdown Preview"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "mdPreview.openPreview",
+          "when": "editorLangId == markdown",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NSTechBytes/md-preview"
+  },
+  "homepage": "https://github.com/NSTechBytes/md-preview",
+  "bugs": {
+    "url": "https://github.com/NSTechBytes/md-preview/issues"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "npm run test:unit",
+    "test:unit": "npx @vscode/test-electron --run tests"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.97.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^9.19.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
