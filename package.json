@@ -1,10 +1,10 @@
 {
-  "name": "markdown-preview",
-  "displayName": "Markdown Preview",
+  "name": "markdown-showcase",
+  "displayName": "Markdown Showcase",
   "description": "A Markdown previewer for VS Code with live updates, themes, and image support.",
   "version": "0.0.1",
   "publisher": "NSTechBytes",
-  "icon": "images/Markdown Preview.png",
+  "icon": "images/Markdown Showcase.png",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -21,7 +21,7 @@
     "commands": [
       {
         "command": "mdPreview.openPreview",
-        "title": "Open Markdown Preview"
+        "title": "Open Markdown Showcase"
       }
     ],
     "menus": {
@@ -36,11 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NSTechBytes/Markdown-Preview"
+    "url": "https://github.com/NSTechBytes/Markdown-Showcase"
   },
-  "homepage": "https://github.com/NSTechBytes/Markdown-Preview",
+  "homepage": "https://github.com/NSTechBytes/Markdown-Showcase",
   "bugs": {
-    "url": "https://github.com/NSTechBytes/Markdown-Preview/issues"
+    "url": "https://github.com/NSTechBytes/Markdown-Showcase/issues"
   },
   "scripts": {
     "lint": "eslint .",

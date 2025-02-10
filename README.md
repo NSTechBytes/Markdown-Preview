@@ -1,6 +1,6 @@
-# 📝 Markdown Preview - A Powerful Markdown Previewer for VS Code
+# 📝 Markdown Showcase - A Powerful Markdown Previewer for VS Code
 
-**Markdown Preview** is a **lightweight yet powerful** extension for **Visual Studio Code** that provides a **live preview** of Markdown files. It supports **images (local & remote), themes, tables, quotes, and more**.
+**Markdown Showcase** is a **lightweight yet powerful** extension for **Visual Studio Code** that provides a **live preview** of Markdown files. It supports **images (local & remote), themes, tables, quotes, and more**.
 
 ---
 
@@ -19,24 +19,24 @@
 ### Install via VS Code:
 1. Open **VS Code**
 2. Go to **Extensions** (`Ctrl+Shift+X`)
-3. Search for **"Markdown Preview"**
+3. Search for **"Markdown Showcase"**
 4. Click **Install**
 
 ### Install via Command:
 Run the following command in **VS Code**:
 
 ```sh
-ext install NSTechBytes.md-preview
+ext install NSTechBytes.markdown-showcase
 ```
 
 ---
 
-## 📖 Usage
+## 📚 Usage
 
 1. Open a **Markdown (`.md`) file**
 2. Open the Command Palette (`Ctrl+Shift+P`)
-3. Search for **"Markdown Preview: Open Markdown Preview"** and select it.
-4. **OR** Right-click the file and choose **"Open Markdown Preview"** from the context menu.
+3. Search for **"Markdown Showcase: Open Markdown Preview"** and select it.
+4. **OR** Right-click the file and choose **"Open Markdown Showcase"** from the context menu.
 
 ---
 
@@ -48,17 +48,17 @@ ext install NSTechBytes.md-preview
 
 ---
 
-## Preview
-![Preview Screenshot](./images/screenshots/preview.png)
+## Showcase
+![Showcase Screenshot](./images/screenshots/preview.png)
 
 
 ## 🛠️ Development & Contribution
 
-Want to improve **Markdown Preview**? Feel free to **fork** this repository and submit a **pull request**.
+Want to improve **Markdown Showcase**? Feel free to **fork** this repository and submit a **pull request**.
 
 ### Clone the Repository:
 ```sh
-git clone https://github.com/NSTechBytes/Markdown-Preview.git
+git clone https://github.com/NSTechBytes/Markdown-Showcase.git
 ```
 
 ### Install Dependencies:
@@ -73,7 +73,7 @@ npm run test
 
 ---
 
-## 📜 License
+## 🐟 License
 
 This project is licensed under the **MIT License**.
 
@@ -81,6 +81,6 @@ This project is licensed under the **MIT License**.
 
 ## ⭐ Support
 
-If you like **Markdown Preview**, please **star ⭐ this repository**! 😊
-For issues & feature requests, open an **issue** on [GitHub](https://github.com/NSTechBytes/Markdown-Preview/issues).
+If you like **Markdown Showcase**, please **star ⭐ this repository**! 😊
+For issues & feature requests, open an **issue** on [GitHub](https://github.com/NSTechBytes/Markdown-Showcase/issues).
 

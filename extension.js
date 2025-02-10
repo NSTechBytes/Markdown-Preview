@@ -88,11 +88,11 @@ function getWebviewContent(mdContent, scriptUri, cssUri, theme, panel, documentU
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="${cssUri}">
     <script src="${scriptUri}"></script>
-    <title>Markdown Preview</title>
+    <title>Markdown Showcase</title>
   </head>
   <body class="${theme}-theme">
     <div id="toolbar">
-      <span><strong>MD Preview</strong></span>
+      <span><strong>MD Showcase</strong></span>
       <select id="themeSelector">
         <option value="light" ${theme === "light" ? "selected" : ""}>Light Theme</option>
         <option value="dark" ${theme === "dark" ? "selected" : ""}>Dark Theme</option>
