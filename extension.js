@@ -43,9 +43,11 @@ function activate(context) {
     // Function to update preview content
     const updatePreview = (e) => {
       if (e.document === document) {
-        panel.webview.html = getWebviewContent(e.document.getText(), scriptUri, cssUri, savedTheme, panel, document.uri);
+        const latestTheme = context.workspaceState.get("mdPreviewTheme") || "light"; // Fetch latest theme
+        panel.webview.html = getWebviewContent(e.document.getText(), scriptUri, cssUri, latestTheme, panel, document.uri);
       }
     };
+    
 
     const textChangeListener = vscode.workspace.onDidChangeTextDocument(updatePreview);
 
@@ -88,11 +90,11 @@ function getWebviewContent(mdContent, scriptUri, cssUri, theme, panel, documentU
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="${cssUri}">
     <script src="${scriptUri}"></script>
-    <title>Markdown Showcase</title>
+    <title>Markdown Preview</title>
   </head>
   <body class="${theme}-theme">
     <div id="toolbar">
-      <span><strong>MD Showcase</strong></span>
+      <span><strong>MD Preview</strong></span>
       <select id="themeSelector">
         <option value="light" ${theme === "light" ? "selected" : ""}>Light Theme</option>
         <option value="dark" ${theme === "dark" ? "selected" : ""}>Dark Theme</option>

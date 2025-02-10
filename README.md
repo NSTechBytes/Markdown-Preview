@@ -6,23 +6,25 @@
 
 ## 🚀 Features
 
-✅ **Live Markdown Preview** – Automatically updates as you type.<br>
-✅ **Supports Local & Remote Images** – Displays images from your system or the web.<br>
-✅ **Light & Dark Themes** – Switch themes easily from the toolbar.<br>
-✅ **Enhanced Table & Quote Styling** – Styled to match GitHub’s Markdown.<br>
-✅ **Context Menu Integration** – Right-click a Markdown file to open the preview.<br>
+✅ **Live Markdown Preview** – Automatically updates as you type.`<br>`
+✅ **Supports Local & Remote Images** – Displays images from your system or the web.`<br>`
+✅ **Light & Dark Themes** – Switch themes easily from the toolbar.`<br>`
+✅ **Enhanced Table & Quote Styling** – Styled to match GitHub’s Markdown.`<br>`
+✅ **Context Menu Integration** – Right-click a Markdown file to open the preview.`<br>`
 
 ---
 
 ## 🛠️ Installation
 
 ### Install via VS Code:
+
 1. Open **VS Code**
 2. Go to **Extensions** (`Ctrl+Shift+X`)
 3. Search for **"Markdown Showcase"**
 4. Click **Install**
 
 ### Install via Command:
+
 Run the following command in **VS Code**:
 
 ```sh
@@ -49,24 +51,27 @@ ext install NSTechBytes.markdown-showcase
 ---
 
 ## Showcase
-![Showcase Screenshot](./images/screenshots/preview.png)
 
+![Showcase Screenshot](./images/screenshots/preview.png)
 
 ## 🛠️ Development & Contribution
 
 Want to improve **Markdown Showcase**? Feel free to **fork** this repository and submit a **pull request**.
 
 ### Clone the Repository:
+
 ```sh
 git clone https://github.com/NSTechBytes/Markdown-Showcase.git
 ```
 
 ### Install Dependencies:
+
 ```sh
 npm install
 ```
 
 ### Run the Extension in VS Code:
+
 ```sh
 npm run test
 ```
@@ -75,7 +80,7 @@ npm run test
 
 ## 🐟 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the Apache 2.0 **License**.
 
 ---
 
@@ -83,4 +88,3 @@ This project is licensed under the **MIT License**.
 
 If you like **Markdown Showcase**, please **star ⭐ this repository**! 😊
 For issues & feature requests, open an **issue** on [GitHub](https://github.com/NSTechBytes/Markdown-Showcase/issues).
-

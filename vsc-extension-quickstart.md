@@ -24,9 +24,9 @@
 ## Explore the API
 
 * You can open the full set of our API when you open the file `node_modules/@types/vscode/index.d.ts`.
-
-## Run tests
-
+      
+## Run tes
+ 
 * Install the [Extension Test Runner](https://marketplace.visualstudio.com/items?itemName=ms-vscode.extension-test-runner)
 * Open the Testing view from the activity bar and click the Run Test" button, or use the hotkey `Ctrl/Cmd + ; A`
 * See the output of the test result in the Test Results view.

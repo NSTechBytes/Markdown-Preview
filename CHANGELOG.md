@@ -1,9 +1,9 @@
-# Change Log
+## [0.0.2] - 2025-10-02
 
-All notable changes to the "Markdown-Showcase" extension will be documented in this file.
+### Fixed
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Fixed an issue where the preview would reset to light mode upon file edits.
 
-## [Unreleased]
+## [0.0.1] - Initial Release
 
-- Initial release
+- Initial release of the extension.
